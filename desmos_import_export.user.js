@@ -4,7 +4,7 @@
 // @author       https://github.com/the-can-of-soup
 // @icon         data:image/png;base64,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
 // @namespace    https://github.com/the-can-of-soup
-// @version      1.2
+// @version      1.3
 // @match        https://www.desmos.com/*
 // @run-at       document-body
 // @grant        none
@@ -17,14 +17,19 @@
   'use strict';
 
   let Calc;
+  let Notebook;
+  let shellController;
+
+  let isLoaded = false;
   let calcType;
   let fileExts;
   let calcTypeUserFriendly;
   let isMiniCalc;
+  let isNotebook;
 
   // LOGIC
 
-  const version = '1.2';
+  const version = '1.3';
   const saveFormatVersion = 2;
 
   const calcTypeFileExts = {
@@ -34,6 +39,7 @@
     matrix:       ['desm', 'desmosm', 'desmos'],
     geometry:     ['desgeo', 'desmosgeo', 'desmos'],
     ['3d']:       ['des3', 'desmos3', 'des3d', 'desmos3d', 'desmos'],
+    notebook:     ['desn', 'desmosn', 'desnote', 'desmosnote', 'desmos'],
   };
 
   const calcTypesUserFriendly = {
@@ -43,6 +49,7 @@
     matrix: 'Matrix Calculator',
     geometry: 'Geometry Tool',
     ['3d']: '3D Graphing Calculator',
+    notebook: 'Notebook',
   }
 
   const miniCalcTypes = [
@@ -90,7 +97,6 @@
   }
 
   function exportToPlaintext(version = null) {
-    if (Calc === undefined) return;
     if (version === null) version = saveFormatVersion;
 
     const saveData = {
@@ -135,7 +141,6 @@
   }
 
   function importFromPlaintext(filename, text, version = null) {
-    if (Calc === undefined) return;
     if (version === null) version = saveFormatVersion;
 
     function fail(text) {
@@ -186,13 +191,12 @@
     // Confirm unsaved changes
     let graphSaveInfo = getGraphSaveInfo();
     if (!graphSaveInfo.isSaved) {
-      let confirmMessage = `You have unsaved changes. Are you sure you want to load "${name}"?`;
-      if (isMiniCalc) confirmMessage = `Are you sure you want to load "${name}"?`;
+      let confirmMessage = isMiniCalc ? `Are you sure you want to load "${name}"?` : `You have unsaved changes. Are you sure you want to load "${name}"?`;
       if (!confirm(confirmMessage)) return;
     }
 
     // Import the file
-    if (!isMiniCalc) newGraph();
+    newGraph();
     switch (version) {
       case 0:
         setGraphState(saveData.state);
@@ -206,7 +210,7 @@
         setGraphTitle(saveData.title);
         break;
     }
-    if (!isMiniCalc) pokeGraph();
+    pokeGraph();
 
     // Success message
     console.log(`[Desmos Import/Export] Imported graph "${name}" from file "${filename}" successfully.`);
@@ -216,14 +220,20 @@
   // DESMOS API
 
   function getGraphState() {
+    if (isNotebook) return Notebook.getState();
     return Calc.getState();
   }
 
   function setGraphState(state) {
-    Calc.setState(state);
+    if (isNotebook) {
+      Notebook.setState(state);
+    } else {
+      Calc.setState(state);
+    }
   }
 
   function getGraphThumbnailURI() {
+    if (isNotebook) return Notebook.makeThumbnail?.() ?? null;
     return Calc.makeThumbnail?.() ?? null;
   }
 
@@ -232,17 +242,23 @@
       alert(text);
       return;
     }
-    Calc._calc.globalHotkeys.shellController.showApiToast(text);
+    shellController.showApiToast(text);
+  }
+
+  function updateUI() {
+    if (isMiniCalc) return;
+    shellController.dispatch({ type: 'tick' }); // thanks to @ronwnor in the Desmos Unofficial discord server
   }
 
   function getGraphTitle() {
     if (isMiniCalc) return null;
-    return Calc._calc.globalHotkeys.shellController.graphsController.getCurrentGraphTitle();
+    return shellController.graphsController.getCurrentGraphTitle();
   }
 
   function setGraphTitle(title) {
     if (isMiniCalc) return;
-    Calc._calc.globalHotkeys.shellController.graphsController.getCurrentGraph().title = title;
+    shellController.graphsController.getCurrentGraph().title = title;
+    updateUI();
   }
 
   function getGraphSaveInfo() {
@@ -254,29 +270,35 @@
         isMine: false,
       };
     }
+
     return {
-      isLoggedIn: Calc._calc.globalHotkeys.shellController.isLoggedIn(),
-      isSaved: !Calc._calc.globalHotkeys.shellController.graphsController.hasUnsavedChanges(),
-      isLinkedToAnAccount: Calc._calc.globalHotkeys.shellController.graphsController.getCurrentGraph().type === 'my-graph',
-      isMine: Calc._calc.globalHotkeys.shellController.graphsController.wasCurrentGraphEverSavedByYou(),
+      isLoggedIn: shellController.isLoggedIn(),
+      isSaved: !shellController.graphsController.hasUnsavedChanges(),
+      isLinkedToAnAccount: shellController.graphsController.getCurrentGraph().type === 'my-graph',
+      isMine: shellController.graphsController.wasCurrentGraphEverSavedByYou(),
     };
   }
 
   function saveChanges() {
-    Calc._calc.globalHotkeys.shellController.simpleSave();
+    if (isMiniCalc) return;
+    shellController.simpleSave();
   }
 
   function openRenameMenu() {
-    Calc._calc.globalHotkeys.shellController.openSaveDialog();
+    if (isMiniCalc) return;
+    shellController.openSaveDialog();
   }
 
   function newGraph() {
-    Calc._calc.globalHotkeys.shellController.graphsController.clearGraph();
+    if (isMiniCalc) return;
+    shellController.graphsController.clearGraph();
+    updateUI();
   }
 
   function pokeGraph() {
+    if (isMiniCalc || isNotebook) return; // Notebooks check their last saved state dynamically rather than having a "has unsaved changes" variable
     Calc.controller._hasUnsavedChanges = true;
-    Calc.controller.dispatch({ type: 'tick' }); // trigger UI update (thanks to @ronwnor in the Desmos Unofficial discord server)
+    updateUI();
   }
 
   // GUI
@@ -358,19 +380,19 @@
   }
 
   function importButtonClicked() {
-    if (Calc === undefined) return;
+    if (!isLoaded) return;
     importUploadInput.accept = fileExts.map(ext => `.${ext}`).join(',');
     importUploadInput.click();
   }
 
   function exportButtonClicked() {
-    if (Calc === undefined) return;
+    if (!isLoaded) return;
     let result = exportToPlaintext();
     downloadText(result.text, `${filenameSanitize(result.title ?? 'Untitled')}.${fileExts[0]}`, 'application/json');
   }
 
   async function fileUploaded(){
-    if (Calc === undefined) return;
+    if (!isLoaded) return;
     if (importUploadInput.files.length < 1) return;
     const file = importUploadInput.files[0];
 
@@ -395,6 +417,7 @@
     if (fileExts === undefined) return;
     calcTypeUserFriendly = calcTypesUserFriendly[calcType];
     isMiniCalc = miniCalcTypes.includes(calcType);
+    isNotebook = calcType === 'notebook';
 
     // Change style of buttons if this is a mini calculator
     if (isMiniCalc) {
@@ -421,7 +444,11 @@
   }
 
   function main() {
-    console.log(`[Desmos Import/Export] Calc now exists; main started.`);
+    if (isNotebook) {
+      console.log(`[Desmos Import/Export] Notebook now exists; main started.`);
+    } else {
+      console.log(`[Desmos Import/Export] Calc now exists; main started.`);
+    }
   }
 
   // ENTRY POINT
@@ -431,10 +458,14 @@
 
   // Run once Calc exists
   const calcWaitInterval = setInterval(function(){
-    if (typeof window.Calc !== 'undefined') {
+    if ((typeof window.Calc !== 'undefined' || typeof window.Notebook !== 'undefined') && (typeof window.shellController !== 'undefined' || isMiniCalc)) {
       clearInterval(calcWaitInterval);
-      // eslint-disable-next-line no-undef
+
       Calc = window.Calc;
+      Notebook = window.Notebook;
+      shellController = window.shellController;
+      isLoaded = true;
+
       main();
     }
   }, 500);
